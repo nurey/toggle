@@ -1,3 +1,3 @@
-Working implementation of Engage Interactive's iToggle for jQuery. 
+Working implementation of Engage Interactive's iToggle for jQuery, http://labs.engageinteractive.co.uk/itoggle/
 Updated with support for jQuery 1.6.1.
 Wrapped in Sinatra.
