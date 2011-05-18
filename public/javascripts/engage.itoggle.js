@@ -30,7 +30,7 @@
 		
 		this.each(function(){
 			var $this = $(this);
-			if($this.attr('tagName') == 'INPUT'){
+			if($this.is("input")){
 				var id=$this.attr('id');
 				label(settings.keepLabel, id);
 				$this.addClass('iT_checkbox').before('<label class="itoggle" for="'+id+'"><span></span></label>');

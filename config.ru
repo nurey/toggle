@@ -1,2 +1,2 @@
-require 'itoggle'
+require 'toggle'
 run Sinatra::Application

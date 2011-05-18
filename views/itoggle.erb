@@ -1,16 +1,17 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/stylesheets/engage.itoggle.css"/>
-<script type="text/javascript" src="/javascripts/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery-1.6.1.js"></script>
+  <script type="text/javascript" src="/javascripts/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="/javascripts/engage.itoggle.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('input#example').iToggle({
-    // easing: 'easeOutExpo',
-		type: 'radio',
+    easing: 'easeOutExpo',
+		type: 'checkbox',
 		keepLabel: true,
-    // easing: 'easeInExpo',
-		speed: 300,
+    easing: 'easeInExpo',
+    speed: 300,
 		onClick: function(){
 			//Function here
 		},
@@ -28,7 +29,7 @@ $(document).ready(function() {
 		},
 		onSlideOff: function(){
 			//Function here
-		},
+		}
 	});
 });
 </script>
@@ -36,6 +37,9 @@ $(document).ready(function() {
 
 <body>
 
-<input type="checkbox" id="example_1" />
+<div id="itoggle">
+<input type="checkbox" id="example" />
+</div>
+
 </body>
 </html>
