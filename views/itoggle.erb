@@ -1,3 +1,41 @@
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="/stylesheets/engage.itoggle.css"/>
+<script type="text/javascript" src="/javascripts/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/javascripts/engage.itoggle.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('input#example').iToggle({
+    // easing: 'easeOutExpo',
+		type: 'radio',
+		keepLabel: true,
+    // easing: 'easeInExpo',
+		speed: 300,
+		onClick: function(){
+			//Function here
+		},
+		onClickOn: function(){
+			//Function here
+		},
+		onClickOff: function(){
+			//Function here
+		},
+		onSlide: function(){
+			//Function here
+		},
+		onSlideOn: function(){
+			//Function here
+		},
+		onSlideOff: function(){
+			//Function here
+		},
+	});
+});
+</script>
+</head>
+
+<body>
 Hello World!
+</body>
+<input type="checkbox" id="example_1" />
 </html>
